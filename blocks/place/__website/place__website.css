@@ -1,0 +1,17 @@
+.place__website {
+  font-style: normal;
+  font-weight: 400;
+  padding: 0;
+  margin: 0 16px 30px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  .place__website {
+    grid-area: website;
+    margin: 0;
+    justify-content: flex-end;
+  }
+}

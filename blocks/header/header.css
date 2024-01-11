@@ -1,0 +1,33 @@
+.header {
+  font-style: normal;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 16px 48px 16px;
+  margin: 0 auto;
+  max-width: 1184px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding-top: 28px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    padding-right: 48px;
+    padding-bottom: 50px;
+    padding-left: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    padding-bottom: 56px;
+  }
+}

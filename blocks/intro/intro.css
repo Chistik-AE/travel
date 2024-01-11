@@ -1,0 +1,30 @@
+.intro {
+  font-style: normal;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0 16px 64px 16px;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    margin-right: 24px;
+    margin-bottom: 88px;
+    margin-left: 24px;
+    width: 720px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    margin-right: 0;
+    margin-left: 48px;
+    margin-bottom: 92px;
+    width: 710px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro {
+    margin-left: 148px;
+  }
+}
